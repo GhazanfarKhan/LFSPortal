@@ -151,6 +151,8 @@
       $('#islamabad_region').removeClass('d-none');
       $('#punjab_region').addClass('d-none');
       $('#sindh_region').addClass('d-none');
+      $('#KP_region').addClass('d-none');
+      $('#Balochistan_region').addClass('d-none');
 
       $('#regionModal').modal('show');
     });
@@ -159,6 +161,8 @@
       $('#islamabad_region').addClass('d-none');
       $('#punjab_region').removeClass('d-none');
       $('#sindh_region').addClass('d-none');
+      $('#KP_region').addClass('d-none');
+      $('#Balochistan_region').addClass('d-none');
       $('#regionModal').modal('show');
     });
     $('#karachi_office').on('click', function () {
@@ -166,6 +170,28 @@
       $('#islamabad_region').addClass('d-none');
       $('#punjab_region').addClass('d-none');
       $('#sindh_region').removeClass('d-none');
+      $('#KP_region').addClass('d-none');
+      $('#Balochistan_region').addClass('d-none');
+      $('#regionModal').modal('show');
+    });
+
+    $('#KP_office').on('click', function () {
+      $('#mtitle').text('Sindh Regional Offices');
+      $('#islamabad_region').addClass('d-none');
+      $('#punjab_region').addClass('d-none');
+      $('#sindh_region').removeClass('d-none');
+      $('#KP_region').addClass('d-none');
+      $('#Balochistan_region').addClass('d-none');
+      $('#regionModal').modal('show');
+    });
+
+    $('#Balochistan_office').on('click', function () {
+      $('#mtitle').text('Sindh Regional Offices');
+      $('#islamabad_region').addClass('d-none');
+      $('#punjab_region').addClass('d-none');
+      $('#sindh_region').removeClass('d-none');
+      $('#KP_region').addClass('d-none');
+      $('#Balochistan_region').addClass('d-none');
       $('#regionModal').modal('show');
     });
   });
